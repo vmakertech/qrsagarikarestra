@@ -21,6 +21,10 @@ body {
   background-color: white;
   font-family:century gothic; 
 }
+a
+{
+  color: white;
+}
 
 .button {
   background-color: #4CAF50;
@@ -78,7 +82,7 @@ body {
 }
 
 .dropbtn {
-  background-color: #00264d;
+  background-color: #d96846;
   color: white;
   padding: 8px;
   font-size: 22px;
@@ -95,7 +99,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: #2f3020;
   min-width: 60%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -110,7 +114,7 @@ body {
   text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1; color: black;}
+.dropdown-content a:hover {background-color: #f1f1f1; color: #2f3020;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -123,6 +127,32 @@ body {
 </head>
 <body>
 
+
+ <!-- Topbar Start -->
+    <div class="container-fluid" style="align-items: center; text-align: center; background-color:#596235; color: white; ">
+                    <div class="container" style="padding: 5px;">
+        <div class="row">
+
+            <div class="col-lg-3" style="padding: 5px;">
+                <div class="h-100 d-inline-flex">
+                    <span><span>Our Social Media Handles</span></span>
+                </div>
+            </div>
+            <div class="col-lg-7">
+            </div>
+            <div class="col-lg-2">
+              <div class="h-100 d-inline-flex">
+                    <a class="btn btn-sm-square bg-white txtor me-1" href=""><i class="fa fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white txtor me-1" href=""><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-sm-square bg-white txtor me-1" href="mailto:sagarikaresturant80@gmail.com"><i class="fa fa-envelope"></i></a>
+                    <a class="btn btn-sm-square" href="https://wa.me/+918887987752?text=please%20take%20my%20order%20"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Topbar End -->
 <div id="homey" class="container" style="align-items: center;">
   <h1 class=""><img src="logo.png" style="width: 50%;"></h1><br>
 </div>
@@ -130,8 +160,8 @@ body {
 
 <!---googlereview--->
 
-<div id="backbutton" class="container-fluid menu" style="background-color: #4285F4; padding: 7px;">
-  <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LC6wTDPLLik2YLRSNagwtrRINTY2MzA1NjdNTTUytDKoMEkzNzQwNUw0NUg1STZJS_MSSUnNyUzOzC8tVijJSFVITyxKSc0DAC53FqQ&q=delicious+the+garden+varanasi+reviews&oq=delicious+th&aqs=chrome.2.69i57j69i60j46i175i199i512j0i512l7.4415j0j7&client=ms-android-xiaomi-rvo2b&sourceid=chrome-mobile&ie=UTF-8&si=ACFMAn-JlfkjHh0ezdNAbIMBZMsz2pZUCvXAg_gwiJ8w9ZZwYsOQjMfQr7TwYr9M8uh75wGunF_niIy2tVPhd1ckbuOdvoUVmd-u1b_OaFZ6LS8bBfYnUIk4HZNR04lse8kYhOrUGWGB7ik4HaBb0JNWlQR5NKgp061fx5niQX5VG1q8wlH_iB8%3D&ictx=1&ved=2ahUKEwjeqcuGlrKAAxX7a_UHHfKvB7UQyNoBKAJ6BAgQEAk" class="googlereview"> <img src="grv.png" style="width: 350px;">  </a>
+<div id="backbutton" class="container-fluid menu" style="background-color:#596235; padding: 7px; text-align: center; font-size: 18px;">
+  <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LC6wTDPLLik2YLRSNagwtrRINTY2MzA1NjdNTTUytDKoMEkzNzQwNUw0NUg1STZJS_MSSUnNyUzOzC8tVijJSFVITyxKSc0DAC53FqQ&q=delicious+the+garden+varanasi+reviews&oq=delicious+th&aqs=chrome.2.69i57j69i60j46i175i199i512j0i512l7.4415j0j7&client=ms-android-xiaomi-rvo2b&sourceid=chrome-mobile&ie=UTF-8&si=ACFMAn-JlfkjHh0ezdNAbIMBZMsz2pZUCvXAg_gwiJ8w9ZZwYsOQjMfQr7TwYr9M8uh75wGunF_niIy2tVPhd1ckbuOdvoUVmd-u1b_OaFZ6LS8bBfYnUIk4HZNR04lse8kYhOrUGWGB7ik4HaBb0JNWlQR5NKgp061fx5niQX5VG1q8wlH_iB8%3D&ictx=1&ved=2ahUKEwjeqcuGlrKAAxX7a_UHHfKvB7UQyNoBKAJ6BAgQEAk" class="googlereview"> <i class="fa fa-google"></i> <b>Please Rewiew us Google</b> </a>
 </div>
 
 
@@ -140,8 +170,8 @@ body {
 
 <div class="container-fluid">
   <div class="dropdown" style="width: 100%;">
-  <button class="dropbtn"><b>View Menu</b></button>
-  <div class="dropdown-content">
+  <button class="dropbtn"><b>Click for all Menu Category</b></button>
+  <div class="dropdown-content" style="width: 60%;">
   <a href="#nonveg">Thali</a>
   <a href="#">Paneer</a>
   <a href="#">Roti</a>
@@ -162,11 +192,11 @@ body {
 
  <!--items--->
 
-   <div class="container-fluid"  style="background-color: #4CAF50; padding: 5px; text-align: center; color: white; font-size: 20px;">
+   <div class="container-fluid"  style="background-color: #596235; padding: 5px; text-align: center; color: white; font-size: 20px;">
   नूडल्स</div>
 
 <div id="pizza" class="container-fluid">
-    <div class="container tbcont1" style="background-color: black; color: white;"><table style="width: 100%;">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
   <tr><td>विवरण </td><td class="alignRight">हाफ् / फुल</td></tr></table></div>
 
   <div class="container tbcont1"><table style="width: 100%;">
@@ -205,7 +235,7 @@ body {
   सुप</div>
 
 <div id="nonveg" class="container-fluid">
-    <div class="container tbcont1" style="background-color: black; color: white;"><table style="width: 100%;">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
  <tr><td>विवरण </td><td class="alignRight"> फुल ग्लास</td></tr></table></div>
 
  <div class="container tbcont1"><table style="width: 100%;">
@@ -237,7 +267,7 @@ body {
    चॉपसी </div>
 
 <div id="nonveg" class="container-fluid">
-    <div class="container tbcont1" style="background-color: black; color: white;"><table style="width: 100%;">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
   <tr><td>विवरण</td><td class="alignRight">फुल प्लेट</td></tr></table></div>
 
  <div class="container tbcont1"><table style="width: 100%;">
