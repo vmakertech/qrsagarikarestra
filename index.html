@@ -123,6 +123,26 @@ a
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 80%;
+  padding: 20px;
+}
+.column2 {
+  float:right;
+  width: 20%;
+  padding: 20px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
@@ -151,11 +171,36 @@ a
         </div>
         </div>
     </div>
+ <!-- Topbar End -->
+<div class="container-fluid">
+<div class="row">
+  <div class="column">
+    <img src="logo.png" style="width:100%;">
+  </div>
+  <div class="column2">
+        <div>  
+                  <a href="whatsapp://send?text=https://phuleshahuambedkars.com/whatsapp_share_button_test.html" data-action="share/whatsapp/share">
+                  
+                      <!-- Share in Whatsapp -->
+                      <img src="share.png" style="width:100%;">
+                    
+                  </a>
+                  <!-- <a href="whatsapp://send?text=your website url link " data-action="share/whatsapp/share">Share in Whatsapp</a>  -->
+            
+                </div>
+  </div>
+</div>
+</div>
+
+
 
     <!-- Topbar End -->
-<div id="homey" class="container" style="align-items: center; padding: 10px;">
-<img src="logo.png" style="width: 50%;"></h1>
-</div>
+
+    <div class="container-fluid" style="align-items: left; text-align: left;">
+
+        
+
+            
 
 
 <!---googlereview--->
@@ -188,17 +233,6 @@ a
   
 </div>
 
- <!--items--->
-  
-    <div id="mobile-share">
-        <a href="whatsapp://send?text=https://phuleshahuambedkars.com/whatsapp_share_button_test.html" data-action="share/whatsapp/share">
-        
-            <!-- Share in Whatsapp -->
-            <img src="https://phuleshahuambedkars.com/whatsapp_share.png">
-          
-        </a>
-        <!-- <a href="whatsapp://send?text=your website url link " data-action="share/whatsapp/share">Share in Whatsapp</a>  -->
-    </div>
 
 
  <!--items--->
